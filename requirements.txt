@@ -1,0 +1,5 @@
+ctransformers==0.2.5   # We are using quantized model and this is used to load that model.
+sentence-transformers==2.2.2 # We are generating embeddings of the text for the model. So, we need this free embedding model from huggingface. 
+pinecone-client # to integrate the pinecone vector DB
+langchain==0.0.225
+flask
